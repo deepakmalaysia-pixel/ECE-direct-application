@@ -28,5 +28,3 @@ EDUCATION & INDUSTRY CERTIFICATIONS
 
 EXTRA-CURRICULAR & RELEVANT EXPERIENCE
 • Lab Assistant / Hardware Club Coordinator | [College Name]                               [Year – Present]
-  Managed inventory of passive components, maintained soldering stations, and calibrated lab test equipment.
-• Volunteer | Residential Staff Support Drive (Organized local distribution workflows)             [Year]
