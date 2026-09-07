@@ -1,0 +1,231 @@
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #28a745;
+    --dark-color: #1a1a2e;
+    --light-bg: #f8f9fa;
+    --border-color: #e2e8f0;
+    --text-main: #333333;
+    --warning-bg: #fff3cd;
+    --warning-border: #ffeeba;
+    --warning-text: #856404;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+.container {
+    width: 92%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.app-header {
+    background-color: var(--dark-color);
+    color: #ffffff;
+    padding: 2.5rem 0;
+    text-align: center;
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.app-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Info Banner */
+.info-banner {
+    background-color: var(--warning-bg);
+    border: 1px solid var(--warning-border);
+    color: var(--warning-text);
+    padding: 1.2rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+}
+
+/* Filters */
+.filters-container {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    margin-bottom: 2rem;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filter-btn {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background: var(--primary-color);
+    color: #ffffff;
+    border-color: var(--primary-color);
+}
+
+/* Company Grid */
+.company-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.company-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tag {
+    align-self: flex-start;
+    background: #e2e8f0;
+    color: #4a5568;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+.company-card h3 {
+    font-size: 1.3rem;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+.cluster-tag {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.product-info {
+    font-size: 0.9rem;
+    background: var(--light-bg);
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 1.2rem;
+    border-left: 3px solid var(--primary-color);
+}
+
+.contact-details {
+    margin-top: auto;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 1rem;
+    font-size: 0.88rem;
+}
+
+.contact-row {
+    margin-bottom: 0.4rem;
+}
+
+.contact-row strong {
+    color: #475569;
+}
+
+.card-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    text-align: center;
+    background: var(--primary-color);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-secondary {
+    background: #edf2f7;
+    color: #2d3748;
+}
+
+/* Toolkit */
+.toolkit-section {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.toolkit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.tool-card ul {
+    list-style-position: inside;
+    margin-top: 0.75rem;
+}
+
+.tool-card li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.app-footer {
+    background: var(--dark-color);
+    color: #94a3b8;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

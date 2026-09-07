@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN India Electronics MSME Internship Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <h1>🔌 PAN India Electronics MSME Gateway</h1>
+            <p>Direct Plant & Apex Team Contacts for Core ECE Internships</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="info-banner">
+            <h3>⚠️ Direct Action Rule for Students</h3>
+            <p>These evolving manufacturing units generally <strong>do not have structured corporate HR portals</strong>. To secure an internship slot, you must skip generic job boards and use the verified apex, plant, or operational numbers listed below to make a direct outreach.</p>
+        </section>
+
+        <!-- Filters Section -->
+        <section class="filters-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Search by cluster city, region, or component...">
+            </div>
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Sub-Sectors</button>
+                <button class="filter-btn" data-category="pcb">PCBs & Substrates</button>
+                <button class="filter-btn" data-category="passive">Passives & Magnetics</button>
+                <button class="filter-btn" data-category="sensor">Sensors & Electromechanical</button>
+                <button class="filter-btn" data-category="ems">Design-Led EMS</button>
+            </div>
+        </section>
+
+        <!-- Directory Grid -->
+        <section class="directory-section">
+            <div class="grid-header">
+                <h2 id="resultsCount">Loading Verified Units...</h2>
+            </div>
+            <div class="company-grid" id="companyGrid">
+                <!-- JavaScript will populate cards here -->
+            </div>
+        </section>
+
+        <!-- Action Toolkit -->
+        <section class="toolkit-section">
+            <h2>🛠️ Shop-Floor Cold Outreach Toolkit</h2>
+            <div class="toolkit-grid">
+                <div class="tool-card">
+                    <h3>1. Core Technical Resume Checklist</h3>
+                    <ul>
+                        <li><strong>EDA/PCB Tool:</strong> Put Altium or KiCad at the top (with Gerber & BOM familiarity).</li>
+                        <li><strong>Lab Instruments:</strong> Explicitly state you know how to operate a DSO & Multimeter.</li>
+                        <li><strong>IPC Awareness:</strong> Note basic knowledge of IPC-A-610 standards.</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>2. Production Manager Cold-Email Template</h3>
+                    <p>Copy this short-form script tailored for mobile reading on factory floors:</p>
+                    <button class="btn" onclick="copyTemplate()">📋 Copy Script to Clipboard</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>PAN India Electronics Ecosystem Portal | Designed for Core ECE Students & Fresh Graduates</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
