@@ -58,7 +58,7 @@ const companies = [
         website: "https://www.sahasraelectronics.com",
         contactPerson: "Plant Lead / Engineering Trainee Coordinator",
         phone: "+91-120-4204814",
-        email: "contact@sahasraelectronics.com"
+        email: "contact@sahasraelectronics.com",
         linkedin: "https://www.linkedin.com/company/sahasra-electronic-solutions-ltd"
     },
     {
@@ -79,8 +79,7 @@ const companies = [
         website: "https://www.vitalelectronics.co.in",
         contactPerson: "Plant Supervisor / Operations Head",
         phone: "+91-22-27610218",
-        email: "info@vitalelectronics.co.in", "ops@vitalelectronics.co.in"
-    }
+        email: "info@vitalelectronics.co.in",     }
 ];
 
 // App Initialization
