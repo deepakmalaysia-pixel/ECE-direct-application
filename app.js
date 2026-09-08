@@ -7,8 +7,8 @@ const companies = [
         products: "Single-sided, Double-sided, and Multi-layered bare PCBs for automotive and telecom applications.",
         website: "https://www.epitomeindia.com",
         contactPerson: "Plant Operations Desk / General Manager Desk",
-        phone: "+91-241-2777754",
-        email: "bgm@epitomecomponents.com"
+        phone: "+91-241-2777681",
+        email: "hr@epitomeindia.com"
     },
     {
         name: "Shogini Technoarts Pvt. Ltd.",
@@ -17,7 +17,7 @@ const companies = [
         products: "Precision single, double, and up to 8-layer rigid PCBs. Cleanroom floor environments.",
         website: "https://www.shogini.com",
         contactPerson: "Plant Head / Factory HR Liaison",
-        phone: "+91-2114-661100",
+        phone: "+91-20-66471700",
         email: "pcb@shogini.com"
     },
     {
@@ -28,7 +28,7 @@ const companies = [
         website: "https://www.pmlindia.com",
         contactPerson: "Technical Operations & Procurement Desk",
         phone: "+91-22-66285400",
-        email: "pml@pmlindia.com"
+        email: "shweta@pmlindia.com"
     },
     {
         name: "Ascent Circuits Pvt. Ltd.",
@@ -37,8 +37,8 @@ const companies = [
         products: "High-density interconnect (HDI) PCBs, flexible circuits, and RF/microwave backplanes.",
         website: "https://www.ascentcircuits.com",
         contactPerson: "Production Head / Works Manager",
-        phone: "+91-4344-276701",
-        email: "sales@ascentcircuits.com"
+        phone: "+91 4344 271105",
+        email: "hr@ascentcircuits.com"
     },
     {
         name: "O/E/N India Limited",
@@ -47,8 +47,8 @@ const companies = [
         products: "Electromechanical relays, miniature switches, potentiometer assemblies, and automotive sensors.",
         website: "https://www.oenindia.com",
         contactPerson: "Operations Coordinator / Plant Executive",
-        phone: "+91-484-2301353",
-        email: "md@oenindia.com"
+        phone: "+91 484 2301132, 7183120, 2303709",
+        whatsapp: "+91 99954-46709"
     },
     {
         name: "Sahasra Electronic Solutions Ltd.",
@@ -58,27 +58,28 @@ const companies = [
         website: "https://www.sahasraelectronics.com",
         contactPerson: "Plant Lead / Engineering Trainee Coordinator",
         phone: "+91-120-4204814",
-        email: "info@sahasragroup.com"
+        email: "contact@sahasraelectronics.com"
+        linkedin: "https://www.linkedin.com/company/sahasra-electronic-solutions-ltd"
     },
     {
         name: "India Circuits Pvt. Ltd.",
         category: "pcb",
         cluster: "Panchkula Node, Haryana",
         products: "Mass volume bare rigid multi-layer PCB pressing, wet processing, and drilling workflows.",
-        website: "https://www.indiacircuits.co.in",
+        website: "https://www.icl.org.in",
         contactPerson: "Works Manager Desk",
         phone: "+91-172-2566710",
-        email: "contact@indiacircuits.com"
+        email: "ac@icl.org.in"
     },
     {
-        name: "Vital Electronics & Manufacturing Node",
-        category: "passive",
-        cluster: "Vasai-Virar Industrial Region, Maharashtra",
-        products: "Aluminium electrolytic capacitors, radial/axial components, power inductors.",
+        name: "Vital Electronics Private Limited",
+        category: "precision manufacturing",
+        cluster: "EL-104, Electronic Zone, T.T.C. Industrial Area, M.I.D.C, Mahape, Navi Mumbai - 400710 Maharashtra, India",
+        products: "Vital Electronics Private Limited is a global contract manufacturing company that offers concurrent engineering, sourcing, printed circuit board assembly, electromechanical assembly, testing and custom designed packing of your products.",
         website: "https://www.vitalelectronics.co.in",
         contactPerson: "Plant Supervisor / Operations Head",
-        phone: "+91-250-2391285",
-        email: "ops@vitalelectronics.com"
+        phone: "+91-22-27610218",
+        email: "info@vitalelectronics.co.in", "ops@vitalelectronics.co.in"
     }
 ];
 
