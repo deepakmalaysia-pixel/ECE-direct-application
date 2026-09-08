@@ -120,7 +120,7 @@ function renderCompanies(data) {
             </div>
             <div class="card-actions">
                 <a href="${comp.website}" target="_blank" class="btn btn-secondary">🌐 Website</a>
-                <a href="mailto:${comp.email}?subject=ECE Intern Application - Available for Break Tracks" class="btn">✉️ Apply Direct</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(comp.email)}&su=${encodeURIComponent("ECE Intern Application - Available for Break Tracks")}" target="_blank" rel="noopener" class="btn">✉️ Apply Direct</a>
             </div>
         `;
         grid.appendChild(card);
