@@ -5,7 +5,7 @@ const companies = [
         category: "pcb",
         cluster: "Ahmednagar & Pune, Maharashtra",
         products: "Single-sided, Double-sided, and Multi-layered bare PCBs for automotive and telecom applications.",
-        website: "https://www.epitomecomponents.com",
+        website: "https://www.epitomeindia.com",
         contactPerson: "Plant Operations Desk / General Manager Desk",
         phone: "+91-241-2777754",
         email: "bgm@epitomecomponents.com"
