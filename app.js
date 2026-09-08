@@ -48,6 +48,7 @@ const companies = [
         website: "https://www.oenindia.com",
         contactPerson: "Operations Coordinator / Plant Executive",
         phone: "+91 484 2301132, 7183120, 2303709",
+        email: "info@oenindia.com",
         whatsapp: "+91 99954-46709"
     },
     {
