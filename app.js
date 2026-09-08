@@ -65,7 +65,7 @@ const companies = [
         category: "pcb",
         cluster: "Panchkula Node, Haryana",
         products: "Mass volume bare rigid multi-layer PCB pressing, wet processing, and drilling workflows.",
-        website: "https://www.indiacircuits.com",
+        website: "https://www.indiacircuits.co.in",
         contactPerson: "Works Manager Desk",
         phone: "+91-172-2566710",
         email: "contact@indiacircuits.com"
@@ -75,7 +75,7 @@ const companies = [
         category: "passive",
         cluster: "Vasai-Virar Industrial Region, Maharashtra",
         products: "Aluminium electrolytic capacitors, radial/axial components, power inductors.",
-        website: "https://www.vitalelectronics.com",
+        website: "https://www.vitalelectronics.co.in",
         contactPerson: "Plant Supervisor / Operations Head",
         phone: "+91-250-2391285",
         email: "ops@vitalelectronics.com"
